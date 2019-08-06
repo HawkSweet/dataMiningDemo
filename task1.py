@@ -46,7 +46,6 @@ if __name__ == '__main__':
     data = df1.infer_objects()#infer feature type
     tmp = data.dtypes
     print(data.dtypes.value_counts())
-    # print(tmp[tmp.values == 'object'].index)
 
     # solve the missing values
     for column in list(df1.columns[:]):
