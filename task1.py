@@ -48,8 +48,6 @@ if __name__ == '__main__':
     print(data.dtypes.value_counts())
 
     # solve the missing values
-    
-
     for column in list(df1.columns[:]):
         fill_value = df1[column][df1[column]!= np.nan].mean()
         fill_value = round(fill_value, 3)
