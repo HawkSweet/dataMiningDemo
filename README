@@ -11,3 +11,6 @@
 
 任务三
 逻辑回归、svm和决策树；随机森林和XGBoost进行模型构建
+
+任务四
+模型评估：记录5个模型（逻辑回归、SVM、决策树、随机森林、XGBoost）关于accuracy、precision，recall和F1-score、auc值的评分表格，并画出ROC曲线
